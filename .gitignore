@@ -1,0 +1,10 @@
+# MkDocs build output
+site/
+
+# Python virtual environments
+.venv*/
+*.venv*/
+
+# OS/editor
+.DS_Store
+.vscode/

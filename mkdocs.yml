@@ -1,0 +1,48 @@
+site_name: PatchPilot Documentation
+site_description: PatchPilot technical documentation
+repo_url: https://github.com/<ORG>/<PatchPilot-docs>
+edit_uri: edit/main/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.tasklist
+
+nav:
+  - Home: index.md
+  - Product:
+      - Overview: PRODUCT/index.md
+      - Sample Output: PRODUCT/Sample-Output.md
+  - Guides:
+      - Overview: GUIDES/index.md
+  - Architecture:
+      - Overview: ARCHITECTURE/index.md
+  - API:
+      - Overview: API/index.md
+  - Operations:
+      - Overview: OPERATIONS/index.md
+  - Security & Compliance:
+      - Overview: SECURITY-COMPLIANCE/index.md
+  - Release:
+      - Overview: RELEASE/index.md
+  - Testing & Quality:
+      - Overview: TESTING-QUALITY/index.md
+  - Appendices:
+      - Overview: APPENDICES/index.md
